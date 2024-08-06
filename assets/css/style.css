@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.py {
+    padding: 100px;
+}
+
+.w-1 {
+    width: 8.33%;
+}
+
+.w-2 {
+    width: 16.66%;
+}
+
+.w-3 {
+    width: 25%;
+}
+
+.w-4 {
+    width: 33.33%;
+}
+
+.w-5 {
+    width: 41.66%;
+}
+
+.w-6 {
+    width: 50%;
+}
+
+.w-7 {
+    width: 58.33%;
+}
+
+.w-8 {
+    width: 66.66%;
+}
+
+.w-9 {
+    width: 75%;
+}
+
+.w-10 {
+    width: 83.33%;
+}
+
+.w-11 {
+    width: 91.66%;
+}
+
+.w-12 {
+    width: 100%;
+}
+
+.w-1,
+.w-2,
+.w-3,
+.w-4,
+.w-5,
+.w-6,
+.w-7,
+.w-8,
+.w-9,
+.w-10,
+.w-11,
+.w-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+:root {
+	--primary-color: #011920;
+	--secondary-color: linear-gradient(to right, rgba(32, 40, 119, 0.95), rgba(55, 46, 149, 0.95), rgba(83, 49, 177, 0.90), rgba(114, 48, 205, 0.85), rgba(150, 41, 230, 0.95));
+	width: 100%;
+	;
+	--white-color: #fff;
+	--orange-color: #ff8700;
+    --cream-color: #F1E2E2;
+	--fs-14: 14px;
+	--fs-15: 15px;
+	--fs-18: 18px;
+	--fs-36: 36px;
+	--fs-42: 42px;
+	--fw-100: 100;
+	--fw-200: 200;
+	--fw-300: 300;
+	--fw-400: 400;
+	--fw-500: 500;
+	--fw-600: 600;
+	--fw-700: 700;
+	--fw-800: 800;
+	--fw-900: 900;
+}
+
+/* head start */
+.head 
+{
+    background-color: var(--primary-color);
+    color: var(--cream-color);
+    padding: 10px;
+    font-size: var(--fs-14);
+    
+}
+/* head end*/
+
+/* header start */
+header
+{
+    background-image: url('../imag/63fc8f011df7042b653ee41c_hero-image-1-1.jpg ');
+}
+header .menu ul li 
+{
+    display: inline-block;
+    position: relative;
+}
+header .menu ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 55px;
+    font-size: var(--fs-18);
+}
+header .menu ul li a i
+{
+    font-size: var(--fs-14);
+    margin: 5px;
+}
+header .menu ul li .dropdown {
+	background-color: #ffffff;
+	border: 2px solid black;
+	position: absolute;
+	width: 150px;
+	top: 5%;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 2;
+  
+}
+
+header .menu ul li .dropdown ul li a {
+	display: block;
+	padding: 10px;
+	color: black;
+}
+
+header .menu ul li .dropdown ul li:hover a {
+	background-color: #0000003c;
+}
+
+header .menu ul li .dropdown::before {
+	box-sizing: border-box;
+	content: '';
+	position: relative;
+	border: 12px solid transparent;
+	width: 10PX;
+	height: 0;
+	transform: translateX(-50%);
+
+}
+
+header .menu ul li:hover .dropdown {
+	visibility: visible;
+	opacity: 1;
+	transition: 0.5s;
+	top: 30px;
+}
+/* header end */
+
+/* test start */
+.test 
+{
+    background-image: url('../imag/63fc8f011df7042b653ee41c_hero-image-1-1.jpg');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+   
+}
+.test .Discount
+{
+    margin-top: 110px;
+}
+.test .Discount h3
+{
+    color:var(--orange-color);
+    margin-bottom: 30px;
+    font-size: 30px;
+  
+}
+.test .Discount h1
+{
+    color: var(--cream-color);
+    margin-bottom: 45px;
+    font-size: 70px;
+    
+}
+.test .Discount h4
+{
+    color: var(--cream-color);
+    margin-bottom: 60px;
+   font-size: 20px;
+}
+.test .Discount p
+{
+    display: inline-block;
+    color:var(--orange-color);
+    text-decoration: underline;
+}
+.test .Discount button
+{
+  color: var(--cream-color);
+  background-color: var(--primary-color);
+  padding: 15px 40px;
+  font-size: var(--fs-18);
+}
+.test .Discount button:hover
+{
+  background-color: var(--orange-color);
+}
+/* test end */
+
+/* call start */
+.call
+{
+    background-image: url('../imag/63fc745af7ed692b2a0ce9c2_about-banner-bg-1-1.jpg');
+}
+.call .call-img
+{
+    padding: 60px;
+}
+.call .call-contain h4
+{
+    color: var(--orange-color);
+    font-size: 20px;
+    margin-bottom:20px ;
+   
+}
+.call .call-contain h1
+{
+    color: var(--cream-color);
+    font-size: 48px;
+    margin-bottom:35px ;
+}
+.call .call-contain p
+{ 
+    color: var(--cream-color);
+    font-size: 18px;
+    margin-bottom:25px ;
+}
+.call .call-contain h3
+{ 
+    color: var(--cream-color);
+    font-size: 20px;
+    margin-bottom:25px ; 
+    display: inline-block ;
+    color: var(--orange-color);
+    text-decoration: underline;
+   
+}
+.call .call-contain h5
+{ 
+    color: var(--cream-color);
+    font-size: 20px;
+    margin-bottom:25px ; 
+    display: inline-block ;
+   
+}
+.call .call-contain button
+{
+    display: block ;
+    background-color: var(--primary-color);
+    font-size: var(--fs-18);
+    padding: 15px 40px;
+    color: var(--cream-color);
+    border: 1px solid var(--cream-color);
+}
+.call .call-contain button:hover
+{
+    background-color: var(--orange-color);
+}
+.call .imeg
+{
+  padding: 110px 10px;
+}
+
+/* call end */
